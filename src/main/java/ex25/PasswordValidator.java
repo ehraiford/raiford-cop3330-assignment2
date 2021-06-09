@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Evan Raiford
+ */
 package ex25;
 //only provides proper validation for the four types of passwords provided by exercise.
 //password outside of those constraints eg under 8 characters but containing special character

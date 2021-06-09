@@ -12,9 +12,10 @@ public class Solution26 {
         Scanner in = new Scanner(System.in);
 
         double balance = receiveInput(in, "What is the credit card balance?");
+        balance = Math.ceil(balance * 100) / 100;
         double apr = receiveInput(in, "What is the APR of the card?");
         double monthlyPayment = receiveInput(in, "What is the monthly payment?");
-
+        monthlyPayment = Math.ceil(monthlyPayment * 100) / 100;
 
         double answer = calc.calculateMonthsUntilPaidOff(balance, monthlyPayment, apr  );
         System.out.println(answer);
