@@ -8,6 +8,7 @@ public class GuessingGame {
     int correct;
     int numGuesses;
 
+
     int setCorrectNumber(int difficulty){
         double correctAnswer = Math.random() * (Math.pow(10, difficulty) - 1) + 1;
         return ((int) correctAnswer);
