@@ -12,7 +12,7 @@ public class solution39 {
         List<HashMap> employees = new ArrayList<>();
         employees = createArrayList(employees);
 
-        Collections.sort(employees, mapComparator);
+      //  Collections.sort(employees, mapComparator);
 
 
     }
