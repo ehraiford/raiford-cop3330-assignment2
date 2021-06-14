@@ -32,7 +32,15 @@ class solution39Test {
     void findHigher_returns_higher_of_two_options(){
         List<HashMap> employees = new ArrayList<>();
         employees = solution39.createArrayList(employees);
+        int highest = solution39.findHigher(0, 2, employees);
+       assertTrue(highest == 0);
+    }
 
-       assert
+    @Test
+    void findHigher_returns_higher_of_two_options_second_test(){
+        List<HashMap> employees = new ArrayList<>();
+        employees = solution39.createArrayList(employees);
+        int highest = solution39.findHigher(4, 0, employees);
+        assertTrue(highest == 4);
     }
 }
